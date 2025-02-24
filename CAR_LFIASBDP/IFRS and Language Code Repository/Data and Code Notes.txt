@@ -1,0 +1,20 @@
+The code in this repository makes use of hand-collected data from the International Accounting Standards Board (IASB) website, as well as the following providers of publicly available data: CIA World Factbook, International Monetary Fund, The World Bank, Educational Testing Service, Geert Hofstede, Deloitte's IASPlus.net, Joshi and Lahiri (2015), and Compustat.
+
+Text-based measures of comment letters to construct the variables Originality and WritingQuality were developed in R (using "R1. IASB CLs - Uniqueness and Similarity by ED.R") and using an algorithm we developed for uploading comment letters to Grammarly.
+
+Except for the variables Originality and WritingQuality, all variables were constructed in STATA using data downloaded from the sources indicated above and in the accompanying .do files. 
+
+The map figures were produced in R using "R2. IASB CLs - Map Figures.R."
+
+The file "S0. IASB CLs - Compile Data.do" is used to import data downloaded from the indicated sources and transform the data in preparation for the analyses in the subsequently numbered .do files.
+
+The file "S1. IASB CLs - By-Country Tests.do" was used to construct the dataset used in the analyses presented in Tables 1 through 3 and OA.4.
+
+The file "S2. IASB CLs - Diff-in-Diff ED Translation Tests.do" was used to construct the dataset used in the analyses presented in Table 4.
+
+The file "S3. IASB CLs - By-CL and Path Analyses.do" was used to construct the dataset used in the analyses presented in Tables 5 through 8.
+
+The file "S4. IASB CLs - Advisory Council Tests.do" was used to construct the dataset used in the analyses presented in Table 9.
+
+Reference:
+Joshi, A.M., & Lahiri, N. (2015). Language friction and partner selection in cross-border R&D alliance formation. Journal of International Business Studies, 46, 123–152.
